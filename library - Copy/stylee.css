@@ -1,0 +1,66 @@
+body{
+    background-attachment: fixed;
+    background-image:url('Screenshot (127).png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text{
+    background-color:rgb(0, 100, 0);
+    text-align: center;
+}
+.text ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.text ul li
+{
+    width: 120px; ;
+    padding: 15px;
+    margin: 15px;
+}
+.text ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.active ,text ul li :hover 
+{
+    background: #2b2b2b;
+     border-radius: 3px ;
+      
+}
+.info
+{
+    border: solid black;
+    box-sizing: border-box;
+    text-indent: 30px;
+    text-align: center;
+    text-decoration: right;
+    font-size: medium;
+    font-weight: 200px;
+    background-position: right bottom;
+}
+.bb
+{
+    border: solid black;
+    text-align: center;
+    text-decoration: solid;
+    font-size: medium;
+    text-indent: 30px;
+}
+.info ff :hover {
+    text-align: center;
+    color: #2b2b2b;
+    padding: 20px;
+    margin: 20px;
+
+}
+.name{
+    text-align: center;
+    border:solid #2b2b2b;
+    
+}
+.lll{
+    text-align: center;
+    
+}
